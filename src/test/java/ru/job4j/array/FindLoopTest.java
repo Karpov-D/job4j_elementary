@@ -23,7 +23,7 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHasNot22Then3() {
+    public void whenArrayHas22Then3() {
         int[] data = {55, 64, 73, 22, 76, 32};
         int el = 22;
         int result = FindLoop.indexOf(data, el);
